@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SDLEvent.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="stb_image.c" />
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Engine\Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Game\Source files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Engine\Source files\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Source files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\Source files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Engine\Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyComponent.cpp">
+      <Filter>Engine\Source files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformationComponent.cpp">
+      <Filter>Engine\Source files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueID.cpp">
+      <Filter>Engine\Source files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Engine\Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtilities.cpp">
+      <Filter>Engine\Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\Source files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>Engine\Source files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Source files\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp" />
+    <ClInclude Include="SDLEvent.hpp" />
+    <ClInclude Include="TimeManager.hpp" />
+    <ClInclude Include="Utilities.hpp">
+      <Filter>Engine\Header files\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.hpp">
+      <Filter>Engine\Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.hpp">
+      <Filter>Game\Header files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.hpp">
+      <Filter>Engine\Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdate.hpp">
+      <Filter>Engine\Header files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Engine\Header files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>Engine\Header files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.hpp">
+      <Filter>Engine\Header files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.hpp">
+      <Filter>Engine\Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyComponent.hpp">
+      <Filter>Engine\Header files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationComponent.hpp">
+      <Filter>Engine\Header files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueID.hpp">
+      <Filter>Engine\Header files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Game\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.hpp">
+      <Filter>Engine\Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtilities.hpp">
+      <Filter>Engine\Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Engine\Header files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>Engine\Header files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>Game\Header files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6f9fb37f-e47b-46c3-8209-dbf486018555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files">
+      <UniqueIdentifier>{0a3ec513-922c-4b14-83e3-98e1934fea74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files">
+      <UniqueIdentifier>{da8cc683-e66e-46b9-be58-7d0e16e23f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\FileSystem">
+      <UniqueIdentifier>{3bfc0f6d-b347-4b1e-8409-b8e30ab88246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\FileSystem">
+      <UniqueIdentifier>{224a5f06-4c71-4095-8314-43514ffaf30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Math">
+      <UniqueIdentifier>{d9ec19b5-abcc-45c2-80b1-4ed53fce3fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Math">
+      <UniqueIdentifier>{4649cadd-77b6-4382-9b0d-159a34ce24e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{00820807-11a8-408e-94ed-3d134f3556b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header files">
+      <UniqueIdentifier>{9b0d03eb-0ba5-426c-8c19-b575484c7008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source files">
+      <UniqueIdentifier>{bec6f606-2848-4bcc-98ff-87371cab05de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header files\Utilities">
+      <UniqueIdentifier>{0c874cc1-8476-455e-8eb2-b07c46bbc601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source files\Utilities">
+      <UniqueIdentifier>{74e2ecdb-3ad8-4d24-a096-e79744ffd820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header files\Entities">
+      <UniqueIdentifier>{5717dc7b-f40a-4209-a2f8-97113bb1de4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source files\Entities">
+      <UniqueIdentifier>{8dc910d5-2071-43f8-be2a-ba79dc025ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Graphics">
+      <UniqueIdentifier>{35516218-15de-46d1-87b8-a3bc07842ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Graphics">
+      <UniqueIdentifier>{b79d1e05-9436-4405-a590-36f0b1efec01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Core">
+      <UniqueIdentifier>{2caad7df-83c9-4be2-965b-082eac531b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Core">
+      <UniqueIdentifier>{f18b50b2-2ddd-42b1-a8ea-a0589c47b437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Components">
+      <UniqueIdentifier>{92c54c25-762f-4ea0-9907-a78935758952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Components">
+      <UniqueIdentifier>{cad3b953-ef96-4a04-9e3b-28702d6a5891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Systems">
+      <UniqueIdentifier>{e271f27c-a143-4eb6-baae-16a241e6ae03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Systems">
+      <UniqueIdentifier>{cd3a5f77-836b-49ae-be7b-b7c7d89a7535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source files\Input">
+      <UniqueIdentifier>{d926f742-7659-40a5-a357-d1bbeb052bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header files\Input">
+      <UniqueIdentifier>{f2aa98aa-2e09-48e7-91ed-1b49e5c7de3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
